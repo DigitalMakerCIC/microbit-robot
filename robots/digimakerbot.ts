@@ -1,5 +1,4 @@
 namespace robot {
-    // https://github.com/k8robotics/pxt-k8
     const IR_SENSOR_LEFT = DigitalPin.P0 //AnalogPin.P0
     //const IR_SENSOR_MIDDLE = DigitalPin.P1 //AnalogPin.P1
     //const SPEAKER = AnalogPin.P1
