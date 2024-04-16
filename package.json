@@ -1,6 +1,7 @@
 {
   "name": "microbit-robot",
   "dependencies": {
-    "makecode": "^1.2.0"
+    "makecode": "^1.2.0",
+    "pxt-microbit": "^7.0.5"
   }
 }
