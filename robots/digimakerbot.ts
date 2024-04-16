@@ -31,7 +31,7 @@ namespace robot {
                 IR_SENSOR_RIGHT,
                 true
             )
-            this.arms = [new drivers.ServoArm(-85, 85, SERVO_1), new drivers.ServoArm(-85, 85, SERVO_2)]
+           // this.arms = [new drivers.ServoArm(-85, 85, SERVO_1), new drivers.ServoArm(-85, 85, SERVO_2)]
             const sonar = new drivers.SR04Sonar(SONAR, SONAR_ECHO)
             this.sonar = sonar
         }
