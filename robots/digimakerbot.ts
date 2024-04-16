@@ -69,6 +69,6 @@ namespace robot {
     /**
      * Digital Maker Bot
      */
-    //% fixedInstance block="inksmith k8" whenUsed
+    //% fixedInstance block="digimaker bot" whenUsed
     export const digimakerbot = new RobotDriver(new Digimakerbot())
 }
