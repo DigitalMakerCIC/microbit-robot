@@ -38,6 +38,7 @@
         "robots/kittenbotrobotbit.ts",
         "robots/kittenbotnanobit.ts",
         "robots/inksmithk8.ts",
+        "robots/digimakerbot.ts",
         "robots/sim.ts",
         "constants.ts",
         "tutorials/getting-started.md",
