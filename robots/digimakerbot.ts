@@ -5,8 +5,8 @@ namespace robot {
     //const SPEAKER = AnalogPin.P1
     const IR_SENSOR_RIGHT = DigitalPin.P2 // AnalogPin.P2
     //const SERVO_2 = AnalogPin.P8
-    const SONAR = DigitalPin.P8
-    const SONAR_ECHO = DigitalPin.P9
+    const SONAR_ECHO = DigitalPin.P8
+    const SONAR_TRIG = DigitalPin.P9
     //const SERVO_1 = AnalogPin.P12
     const M2_PWR: number = DigitalPin.P13
     const M2_DIR: number = DigitalPin.P14
@@ -32,7 +32,7 @@ namespace robot {
                 true
             )
            // this.arms = [new drivers.ServoArm(-85, 85, SERVO_1), new drivers.ServoArm(-85, 85, SERVO_2)]
-            const sonar = new drivers.SR04Sonar(SONAR, SONAR_ECHO)
+            const sonar = new drivers.SR04Sonar(SONAR_ECHO, SONAR_TRIG)
             this.sonar = sonar
         }
 
